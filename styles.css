@@ -1,19 +1,13 @@
-/*Parent Element*/
-.full-container {
-display: flex-container;
-justify-content: center;
-align-content: center;
-align-items: center;
-}
 /*Calculator*/
 .calc-container {
-display: flex;
+display: flex-box;
 margin: auto;
-flex-direction: column;
-height: 700px;
-width: 300px;
+align-items: center;
+justify-content: center;
+height: 645px;
+width: 350px;
 background: #84A98C;
-padding: 20px;
+padding: 30px;
 border-radius: 25px;
 }
 /*Display Screen*/
@@ -22,6 +16,7 @@ border-radius: 25px;
     font-weight: 800;
     font-style: normal;
     min-height: 64px;
+    max-width: 1000px;
     font-size: 40px;
     display: block;
     background-color: aliceblue;
@@ -31,21 +26,36 @@ border-radius: 25px;
 }
 /*Button Box*/
 .button-box{
-padding: 1px;
-flex-wrap: wrap;
-gap: 10px;
+display: flex;
+flex-direction: column;
 }
+
 /*Clr and Del*/
 .clr-and-del{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+/*Container Box*/
+.container-box{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+/*Number Box*/
+.number-box{
+display: flex;
 flex-direction: row;
-margin: auto;
+flex-wrap: wrap;
+align-items: flex-start;  
+align-content: flex-start;
 }
 /*Operator Box*/
 .operator-box{
-    align-self: flex-end;
-    justify-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: column;
-
 }
 
 button {
@@ -56,8 +66,10 @@ button {
     border: 2px solid;
     border-color: aquamarine;
     color: white;
-    padding: 20px;
+    padding: 25px;
+    margin: 5px;
     text-align: center;
+    align-items: flex-start;
     border-radius: 10px;
     font-size: 20px;
 }
