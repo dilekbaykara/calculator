@@ -17,6 +17,11 @@ return a / b;
 
 };
 
+//Display window function to populate//
+function populateDisplay(){
+var displayValue = document.getElementById("currentScreen").innerText;
+
+}
 // Create a new function operate that takes an operator and 2 numbers and then calls one of the above functions on the numbers.
 function operate(num1, num2, operator) {
     switch (operator) {

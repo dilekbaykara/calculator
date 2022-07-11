@@ -10,7 +10,7 @@ align-items: center;
 display: flex;
 margin: auto;
 flex-direction: column;
-height: 600px;
+height: 700px;
 width: 300px;
 background: #84A98C;
 padding: 20px;
@@ -31,8 +31,21 @@ border-radius: 25px;
 }
 /*Button Box*/
 .button-box{
-display: flex;
-flex-direction: column;
+padding: 1px;
+flex-wrap: wrap;
+gap: 10px;
+}
+/*Clr and Del*/
+.clr-and-del{
+flex-direction: row;
+margin: auto;
+}
+/*Operator Box*/
+.operator-box{
+    align-self: flex-end;
+    justify-self: flex-end;
+    flex-direction: column;
+
 }
 
 button {
@@ -40,14 +53,13 @@ button {
     font-weight: 800;
     font-style: normal;
     background-color: #172A3A; 
-    border: 2px;
+    border: 2px solid;
     border-color: aquamarine;
     color: white;
-    padding: 6px 10px;
+    padding: 20px;
     text-align: center;
-    text-decoration: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h1 {
