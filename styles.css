@@ -50,6 +50,7 @@ flex-wrap: wrap;
 align-items: flex-start;  
 align-content: flex-start;
 }
+
 /*Operator Box*/
 .operator-box{
     display: flex;
