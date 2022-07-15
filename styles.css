@@ -7,7 +7,7 @@ justify-content: center;
 height: 645px;
 width: 350px;
 background: #84A98C;
-padding: 30px;
+padding: 15px;
 border-radius: 25px;
 }
 /*Display Screen*/
@@ -41,23 +41,18 @@ align-items: flex-start;
     display: flex;
     align-content: space-between;
     flex-direction: row;
+    width: 100%;
 }
 /*Number Box*/
 .number-box{
 display: flex;
+justify-content: center;
 flex-direction: row;
-flex-wrap: wrap;
+flex-flow: row wrap;
 align-items: flex-start;  
 align-content: flex-start;
 }
 
-/*Operator Box*/
-.operator-box{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    flex-direction: column;
-}
 
 button {
     font-family: loos-extended, sans-serif;
@@ -67,10 +62,9 @@ button {
     border: 2px solid;
     border-color: aquamarine;
     color: white;
-    padding: 25px;
+    padding: 26px;
     margin: 5px;
     text-align: center;
-    align-items: flex-start;
     border-radius: 10px;
     font-size: 20px;
 }
