@@ -16,13 +16,13 @@ border-radius: 25px;
     font-weight: 800;
     font-style: normal;
     min-height: 64px;
-    max-width: 1000px;
+    max-width: 1020px;
     font-size: 40px;
     display: block;
     background-color: aliceblue;
     border-radius: 10px;
     text-align: right;
-    margin: 15px;
+    margin: 6px;
 }
 /*Button Box*/
 .button-box{
@@ -78,6 +78,7 @@ button:hover {
 }
 
 h1 {
+    margin-left: 5px;
     font-family: loos-extended, sans-serif;
     font-weight: 800;
     font-style: normal;
