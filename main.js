@@ -16,7 +16,7 @@ delete() {
 }
 
 appendNumber(number) {
-
+this.currentOperand = number
 }
 
 chooseOperation(operation) {
@@ -28,7 +28,7 @@ compute() {
 }
 
 updateDisplay() {
-
+this.currentOperandTextElement.innerText = this.currentOperand
 }
 }
 
