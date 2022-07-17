@@ -17,13 +17,16 @@
 <div class ="calc-container">
 <h1>Calculator</h1>
 <!-----------Display Box---------->
-<div class="screen-current" id="currentScreen">0</div>
+<div class="screen-current" id="currentScreen">0
+<div class ="previous-operand"></div>
+<div class="current-operand"></div>
+</div>
 <!-----------Button Box----------->
 <div class="button-box">
 <!-------Clear and Delete--------->
 <div class= "clr-and-del">
-<button id ="clear-btn">CLEAR</button>   
-<button id ="delete-btn">DELETE</button>   
+<button data-clear>CLEAR</button>   
+<button data-delete>DELETE</button>   
 </div>
 
 <!--Container Box for the Below-->
@@ -31,22 +34,22 @@
 
 <!-----------Number Box---------->
 <div class="number-box">
-    <button id ="7-btn">7</button>
-    <button id ="8-btn">8</button>
-    <button id ="9-btn">9</button>
-    <button id ="divide-btn">÷</button>
-    <button id ="4-btn">4</button>
-    <button id ="5-btn">5</button>
-    <button id ="6-btn">6</button>
-    <button id ="multiply-btn">×</button>
-    <button id ="1-btn">1</button>
-    <button id ="2-btn">2</button>
-    <button id ="3-btn">3</button>
-    <button id ="minus-btn">-</button>
-    <button id ="period-btn">.</button>
-    <button id ="0-btn">0</button>  
-    <button id ="equal-btn">=</button>
-    <button id ="add-btn">+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>÷</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>×</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>  
+    <button data-equals>=</button>
+    <button data-operation>+</button>
 </div>
 
 
